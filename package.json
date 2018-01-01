@@ -1,0 +1,16 @@
+{
+  "name": "email-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vadimbogomazov/email-starter.git",
+  "author": "vadimbogomazov <bogomazov.vadim@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mjml": "^2.3.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

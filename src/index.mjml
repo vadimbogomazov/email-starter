@@ -1,0 +1,41 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email Starter</mj-title>
+
+    <mj-attributes>
+      <mj-all font-family="Arial" font-size="16px" />
+    </mj-attributes>
+
+    <mj-style>
+      .email-header {
+        background: #eee;
+        text-transform: uppercase;
+      }
+
+      .email-footer {
+        background: #eee;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <!-- HEADER -->
+      <mj-section css-class="email-header">
+        <mj-text>Header</mj-text>
+      </mj-section>
+      <!-- /HEADER -->
+
+      <!-- CONTENT -->
+      <mj-section css-class="email-content">
+        <mj-text>Content</mj-text>
+      </mj-section>
+      <!-- /CONTENT -->
+
+      <!-- FOOTER -->
+      <mj-section css-class="email-footer">
+        <mj-text>Footer</mj-text>
+      </mj-section>
+      <!-- /FOOTER -->
+    </mj-container>
+  </mj-body>
+</mjml>
